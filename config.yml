@@ -36,3 +36,9 @@ homebrew_cask_apps:
   - visual-studio-code
 
 homebrew_upgrade_all_packages: yes
+
+mas_email: "torrottum@gmail.com"
+mas_signin_dialog: yes
+mas_installed_apps:
+  - { id: 926036361, name: "LastPass: Password Manager and Secure Vault" }
+  - { id: 531349534, name: "Tadam: Stay focused at work" }
