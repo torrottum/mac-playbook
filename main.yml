@@ -7,4 +7,4 @@
 
   roles:
     - role: geerlingguy.homebrew
-      tags: ['brew']
+      tags: ['brew', 'apps']
