@@ -2,5 +2,9 @@
 - hosts: all
   connection: local
 
-  vars_files: 
+  vars_files:
     - config.yml
+
+  roles:
+    - role: geerlingguy.homebrew
+      tags: ['brew']

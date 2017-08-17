@@ -1,0 +1,38 @@
+homebrew_installed_packages:
+  - antibody
+  - composer
+  - gnupg
+  - htop
+  - mobile-shell
+  - {name: mpv, install_options: 'with-bundle'}
+  - pass
+  - php71
+  - pinentry-mac
+  - yarn
+
+homebrew_taps:
+  - getantibody/tap
+  - homebrew/php
+  - caskroom/cask
+
+homebrew_cask_apps:
+  - alfred
+  - atext
+  - flux
+  - google-chrome
+  - harvest
+  - iterm2
+  - jotta
+  - jotta
+  - osxfuse
+  - postman
+  - sequel-pro
+  - slack
+  - spectacle
+  - spotify
+  - transmission
+  - typora
+  - virtualbox
+  - visual-studio-code
+
+homebrew_upgrade_all_packages: yes
