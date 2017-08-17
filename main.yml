@@ -8,12 +8,13 @@
   roles:
     - role: geerlingguy.homebrew
       tags: ['brew', 'apps']
+
     - role: geerlingguy.mas
       tags: ['mas', 'apps']
 
   tasks:
     - include: tasks/sshfs.yml
       tags: ['brew', 'apps']
-    - include: tasks/settings.yml
-      tags: ['defaults', 'settings']
 
+    - include: tasks/macos.yml
+      tags: ['macos', 'settings']
