@@ -23,7 +23,6 @@ homebrew_cask_apps:
   - harvest
   - iterm2
   - jotta
-  - jotta
   - osxfuse
   - postman
   - sequel-pro
