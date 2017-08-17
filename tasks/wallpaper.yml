@@ -1,0 +1,14 @@
+---
+
+- name: create ~/Pictures/wallpapers
+  file: path=~/Pictures/wallpapers state=directory mode=0755
+
+- name: Download wallpaper
+  get_url:
+    url: "{{ wallpaper_url }}"
+    dest: ~/Pictures/wallpapers
+  register: wallpaper_dl_result
+
+- name: set wallpaper
+  command: osascript -e 'tell application "Finder" to set desktop picture to POSIX file "{{wallpaper_dl_result.dest}}"'
+  when: wallpaper_dl_result.dest

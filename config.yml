@@ -46,3 +46,5 @@ computer_name: Zeus
 timezone: Europe/Oslo
 
 finder_default_path: "file://{{ ansible_env.HOME }}/"
+
+wallpaper_url: https://images.unsplash.com/photo-1502582877126-512f3c5b0a64?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&dl=casey-horner-339165.jpg&s=ad416e5df5da678c17183d00411ffe8d
