@@ -21,3 +21,8 @@
 
     - include: tasks/wallpaper.yml
       tags: ['wallpaper', 'settings']
+
+    - name: Set shell to zsh
+      command: chsh -s /bin/zsh {{username}}
+      become: true
+      tags: ['shell']
