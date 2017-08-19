@@ -101,7 +101,7 @@
     - {domain: com.apple.finder, key: askForPasswordDelay, type: string, value: "{{ finder_default_path }}"}
 
 - name: "Finder: show all filename extensions"
-  osx_defaults: domain=NSGlobalDOmain key=AppleShowAllExtensions type=bool value=true state=present
+  osx_defaults: domain=NSGlobalDomain key=AppleShowAllExtensions type=bool value=true state=present
 
 - name: Keep folders on top when sorting by name
   osx_defaults: domain=com.apple.finder key=_FXSortFoldersFirst type=bool value=true state=present
