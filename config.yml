@@ -27,6 +27,7 @@ homebrew_cask_apps:
   - osxfuse
   - postman
   - sequel-pro
+  - sketch
   - slack
   - spectacle
   - spotify
