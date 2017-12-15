@@ -33,7 +33,6 @@ homebrew_cask_apps:
   - spotify
   - torbrowser
   - transmission
-  - typora
   - virtualbox
   - visual-studio-code
 
