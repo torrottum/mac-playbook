@@ -38,7 +38,7 @@ homebrew_cask_apps:
 
 homebrew_upgrade_all_packages: yes
 
-hostname: Zeus
+hostname: Athena
 username: tor
 timezone: Europe/Oslo
 
