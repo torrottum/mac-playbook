@@ -10,6 +10,14 @@ homebrew_installed_packages:
   - pinentry-mac
   - pwgen
   - yarn
+  - wget
+  - homebrew/php/wp-cli
+  - go
+  - dep
+  - sshfs
+  - python3
+  - python
+  - mysql
 
 homebrew_taps:
   - getantibody/tap
@@ -35,6 +43,7 @@ homebrew_cask_apps:
   - transmission
   - virtualbox
   - visual-studio-code
+  - bartender
 
 homebrew_upgrade_all_packages: yes
 
